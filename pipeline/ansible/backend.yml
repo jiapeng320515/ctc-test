@@ -1,0 +1,10 @@
+---
+# This playbook deploys the iem backend project.
+
+- hosts: backend_test_servers
+  remote_user: root
+  become: yes
+  become_method: sudo
+
+  roles:
+    - backend

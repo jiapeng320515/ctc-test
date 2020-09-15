@@ -1,0 +1,2 @@
+[backend_test_servers]
+10.248.63.116 ansible_ssh_user=root
